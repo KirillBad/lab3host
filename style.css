@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+}
+
+header {
+    padding: 1px;
+    text-align: center;
+    font-weight: bold;
+    background-image: url(images/photo_2023-10-25_17-48-03.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px; 
+}
+
+p {
+    font-size: 16px; 
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+article{
+    text-align: center;
+}
+
+a:hover{
+    color: black;
+    transform: scale(1.05);
+    transition: all 0.25s ease;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item{
+    background-color: rgb(15,163,127);
+    width: 320px;
+    margin: 20px;
+    text-align: center;
+}
+
+.item-image{
+    height: 160px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.item-1{
+    background-image: url('./images/access.webp');
+    background-position:bottom;
+}
+
+.item-2{
+    background-image: url('./images/pay.webp');
+    background-position: bottom;
+}
+
+.item-3{
+    background-image: url('./images/free.webp');
+    background-position: bottom;
+}
+
+.item a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.item:hover{
+    background-color: rgba(15, 163, 126, 0.568);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.25s ease;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 200px;
+    background-color: rgb(15,163,127);
+    padding: 20px;
+
+    border-radius: 0px 0px 30px 30px;
+}
+
+.sidebarItem{
+    cursor: pointer;
+    padding: 8px 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.sidebarItem:hover{
+    background-color:rgba(15, 163, 126, 0.568);
+    border-radius: 4px;
+}
+
+article{
+    padding-left: 460px;
+    text-align: left;
+    width: 500px;
+}
+
+article a{
+    color: rgb(15,163,127);
+}
+
+article a:hover{
+    color:rgba(15, 163, 126, 0.568);
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.content{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.articles{
+    padding-bottom: 50px;
+}
